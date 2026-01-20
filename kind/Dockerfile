@@ -10,9 +10,6 @@ WORKDIR /app
 # Copiar dependências primeiro para aproveitar cache, codigo e app.py
 COPY requirements.txt /app/requirements.txt 
 
-#Copiar Codigo
-COPY ./src /app
-
 #Copiar app.py
 COPY app.py /app
 
