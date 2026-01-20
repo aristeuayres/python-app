@@ -3,7 +3,7 @@ on:
     paths:
       - kind/**
     branches:
-      - main
+      - master
 
 jobs:
   docker:
